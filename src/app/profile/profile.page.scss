@@ -1,0 +1,30 @@
+:root{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+ion-card ion-card-header div ion-row h1{
+  color:darkblue;
+}
+
+ion-img{
+  width: 75px;;
+}
+
+h1{
+  text-align: left;
+  color:black;
+  font-size:20px;
+}
+
+ion-card-content{
+  color:black;
+}
+
+ion-card-content ion-img{
+  padding-top:10px;
+  width: 100%;
+}

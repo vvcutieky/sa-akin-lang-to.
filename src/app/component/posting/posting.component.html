@@ -1,0 +1,16 @@
+<div *ngIf="posts!.length>0">
+  <ion-card *ngFor="let post of posts">
+    <ion-card-header>
+      <div>
+        <ion-row>
+            <ion-img src="../../assets/{{post.dp}}"></ion-img>
+            <h1>{{post.name}}</h1>
+        </ion-row>
+      </div>
+    </ion-card-header>
+    <ion-card-content>
+      {{post.content}}
+      <ion-img alt="{{post.image}}" src="../../assets/{{post.image}}"/>
+    </ion-card-content>
+  </ion-card>
+</div>
